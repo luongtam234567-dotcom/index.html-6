@@ -219,7 +219,7 @@ nav {
 }
 
 .project {
-  margin-bottom: 200px;
+  margin-bottom: 260px;
 }
 
 .project__wrapper {
@@ -236,7 +236,7 @@ nav {
 
 .project__wrapper img {
   width: 100%;
-  display: flex;
+  display: block;
 }
 
 .project__description--title {
@@ -300,4 +300,17 @@ nav {
   display: flex;
   gap: 4px;
 }
+
+.project {
+  margin-bottom: 260px;
+}
+
+.project__wrapper {
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 0 20px 80px rgba(0, 0, 0, 0.45);
+  overflow: hidden;
+}
+
+/* PROJECTS 2 */
 
