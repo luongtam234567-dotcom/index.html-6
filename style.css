@@ -336,9 +336,9 @@ footer {
     width: 100%;
     max-width: 900px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin: 40px 0;
+    margin-top: 40px 0;
 }
 
 .footer__social--link,
@@ -346,6 +346,7 @@ footer {
     color: white;
     font-size: 17px;
     margin: 0 12px;
+    display: flexbox;
 }
 
 .footer__social--link {
