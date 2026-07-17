@@ -334,10 +334,11 @@ footer {
 
 .footer__social--list {
     width: 100%;
-    max-width: 500px;
+    max-width: 900px;
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 28px 0;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
 }
 
 .footer__social--link,
@@ -345,10 +346,6 @@ footer {
     color: white;
     font-size: 17px;
     margin: 0 12px;
-}
-
-.link__hover-effect {
-    position: relative;
 }
 
 .footer__social--link {
