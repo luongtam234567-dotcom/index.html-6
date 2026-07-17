@@ -324,4 +324,39 @@ nav {
 footer {
     background-color: #242424;
     display: flex;
+    padding: 6% 0;
 }
+
+.footer__logo--img {
+    width: 90px;
+    height: 90px;
+}
+
+.footer__social--list {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 28px 0;
+}
+
+.footer__social--link,
+.footer__copyright {
+    color: white;
+    font-size: 17px;
+    margin: 0 12px;
+}
+
+.link__hover-effect {
+    position: relative;
+}
+
+.footer__social--link {
+    margin: 0 12px;
+}
+
+.footer__copyright {
+    margin-top: 20px;
+    text-align: center;
+}
+
